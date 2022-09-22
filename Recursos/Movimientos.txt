@@ -1,0 +1,24 @@
+
+Depositar:
+{
+    "fecha": "",
+    "tipoMovimiento": "Deposito de 500",
+    "valor": 500.00,
+    "saldo": 0.00,
+    "cuenta": 
+        {
+        "idCuenta": 1
+        }
+}
+
+Retirar:
+{
+    "fecha": "",
+    "tipoMovimiento": "Retiro de -500",
+    "valor": 500.00,
+    "saldo": 0.00,
+    "cuenta": 
+        {
+        "idCuenta": 1
+        }
+}

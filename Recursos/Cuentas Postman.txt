@@ -1,0 +1,40 @@
+{
+    "numeroCuenta": "478758",
+    "tipoCuenta": "Ahorro",
+    "saldoInicial": 2000.00,
+    "estado": 1,
+    "cliente": 
+        {
+        "id": 1
+        }
+}
+{
+    "numeroCuenta": "225487",
+    "tipoCuenta": "Corriente",
+    "saldoInicial": 100.00,
+    "estado": 1,
+    "cliente": 
+        {
+        "id": 2
+        }
+}
+{
+    "numeroCuenta": "495878",
+    "tipoCuenta": "Ahorros",
+    "saldoInicial": 0.00,
+    "estado": 1,
+    "cliente": 
+        {
+        "id": 3
+        }
+}
+{
+    "numeroCuenta": "496825",
+    "tipoCuenta": "Ahorros",
+    "saldoInicial": 540.00,
+    "estado": 1,
+    "cliente": 
+        {
+        "id": 2
+        }
+}
