@@ -1,0 +1,30 @@
+{
+    "nombre": "Jose Lema",
+    "genero": "Femenina",
+    "edad": 25,
+    "identificacion": 76890989,
+    "direccion": "Otavalo sn y principal",
+    "telefono": "098254785",
+    "contrasena": "1234",
+    "estado": 1
+}
+{
+    "nombre": "Marianela Montalvo",
+    "genero": "Femenina",
+    "edad": 30,
+    "identificacion": 76890989,
+    "direccion": "Amazonas y  NNUU",
+    "telefono": "097548965",
+    "contrasena": "5678",
+    "estado": 1
+}
+{
+    "nombre": "Juan Osorio",
+    "genero": "Masculino",
+    "edad": 32,
+    "identificacion": 76890989,
+    "direccion": "13 junio y Equinoccial",
+    "telefono": "098874587",
+    "contrasena": "1245",
+    "estado": 1
+}
