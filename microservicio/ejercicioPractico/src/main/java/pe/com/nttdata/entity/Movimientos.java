@@ -10,6 +10,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import lombok.Data;
 
 @Data
@@ -20,6 +23,7 @@ public class Movimientos {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer idMovimiento;
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	@Column(name = "fecha", nullable = false)
 	private LocalDateTime fecha;
 	@Column(name = "tipo_movimiento", nullable = false, length = 30)

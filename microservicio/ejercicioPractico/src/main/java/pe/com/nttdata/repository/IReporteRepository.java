@@ -13,10 +13,10 @@ import org.springframework.transaction.annotation.Transactional;
 import pe.com.nttdata.entity.Movimientos;
 
 @Repository
-public interface IReporteRepository extends JpaRepository<Movimientos, LocalDateTime>{
+public interface IReporteRepository extends JpaRepository<Movimientos, Integer>{
 
-//	@Modifying
-//	@Transactional
-//	@Query("select m from movimientos m where m.fecha BETWEEN :from and :to ")
-//	List<Movimientos> reporteEstadoCuenta(@Param("from") LocalDateTime from, @Param("to") LocalDateTime to);
+	@Modifying
+	@Transactional
+	@Query("select m from Movimientos m where m.fecha BETWEEN :from and :to ")
+	List<Movimientos> reporteEstadoCuenta(@Param("from") LocalDateTime from, @Param("to") LocalDateTime to);
 }
